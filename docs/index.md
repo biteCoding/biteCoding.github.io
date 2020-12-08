@@ -9,7 +9,7 @@
         <h1 id="name">Tim Mühle</h1>
 
         <p id="beschreibung">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            Eine Beschreibung folgt in Kürze.
         </p>
         
         <ul>
@@ -18,6 +18,6 @@
             <li>Veranstaltungstechniker - hauptsächlich Lichttechnik</li>
         </ul>
 
-        <a href="https://hochschule-bochum.de">Zur Hauptseite (HS-Bochum)</a>
+        <a href="tech-tim.me">Zur Hauptseite</a>
     </body>
 </html>

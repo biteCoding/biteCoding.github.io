@@ -1,0 +1,48 @@
+/* * * * * * * * * * * * * * * * * * * * *
+ *                                       *
+ *  Allgemein                            *
+ *                                       *
+ * * * * * * * * * * * * * * * * * * * * */
+
+html, body {
+	height: 100%;
+	color: #CDDFC2;
+	background-color: #7DA366;
+	font-family: "Verdana", sans-serif;
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * *
+ *                                       *
+ *  IDs                                  *
+ *                                       *
+ * * * * * * * * * * * * * * * * * * * * */
+
+#name, #beschreibung {
+    margin: 5pt;
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * *
+ *                                       *
+ *  Listen                               *
+ *                                       *
+ * * * * * * * * * * * * * * * * * * * * */
+
+li {
+    padding: 15px;
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * *
+ *                                       *
+ *  Links                                *
+ *                                       *
+ * * * * * * * * * * * * * * * * * * * * */
+
+a:hover {
+    text-decoration: none;
+}

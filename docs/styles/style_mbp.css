@@ -1,0 +1,240 @@
+/*** 
+
+	General 
+
+***/
+
+html, body{
+	height: 100%;
+	margin: 0;
+	background-color: white;
+	color: black;
+	font-family: "Verdana", sans-serif;
+	text-align: justify;
+}
+
+/***
+
+	Main Content
+
+***/
+
+.section{
+	display: block;
+  	margin-top: auto;
+  	margin-bottom: auto;
+	margin: 3%;
+	overflow: auto;
+}
+
+#daten {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text{
+	width: 100%;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+#fragen {
+	font-weight: bold;
+	text-align: center;
+}
+
+h3{
+	font-size: 300%;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 20px;
+	color: slategrey;
+}
+
+hr{
+	width: 80%;
+	height: 2px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 10%;
+	background-color: slategrey;
+	
+}
+
+img{
+	margin: 2%;
+	max-width: 92%;
+	max-height: 96%;
+	width: auto;
+}
+
+/*
+.section:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+*/
+
+th, td {
+	padding: 15px;
+	text-align: left;
+}
+
+#daten tr:nth-child(even) {
+	background-color: aliceblue;
+}
+
+ul{
+	margin: 0;
+}
+
+#lieferumfang {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center td{
+	text-align: center;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+	align-items: center;
+	justify-content: center;
+}
+  
+
+.column {
+	float: left;
+	width: 8vw;
+	padding: 10px;
+}
+  
+/* Style the images inside the grid */
+.column img {
+	opacity: 0.8;
+	cursor: pointer;
+}
+  
+.column img:hover {
+	opacity: 1;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+  
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+	position: relative;
+	display: none;
+}
+  
+/* Expanding image text */
+#imgtext {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	color: white;
+	font-size: 20px;
+}
+
+
+
+
+
+/***
+
+	Grid Layout - added
+
+***/
+
+.col-12, .col-6{
+	float: left;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+.col-6{
+	width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	.img{
+		width: 100%;
+		height: auto;
+	}
+
+	img{
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+		max-width: 100%;
+		height: auto;
+	}
+		
+}
+
+@media screen and (min-width: 769px) {
+	.img{
+		width: 40%;
+  		height: auto;
+	}
+
+	.text-left{
+		width: 60%;
+		float: left;
+	}
+}
+
+@media screen and (min-width: 969px) {
+	p, th, td {
+		font-size: 1.6vw;
+	}
+
+	#fragen {
+		font-size: 1.8vw;
+	}
+}
+
+@media screen and (min-width: 1289px) {
+	p, th, td {
+		font-size: 22px;
+	}
+
+	#fragen {
+		font-size: 26px;
+	}
+}
+
+@media screen and (min-width: 1539px) {
+	.img{
+		width: auto;
+  		height: 450px;
+	}
+
+	img{
+		margin: 2%;
+		max-height: 100%;
+		width: auto;
+	}
+
+	.text-left{
+		width: 60%;
+		float: left;
+	}
+}
+

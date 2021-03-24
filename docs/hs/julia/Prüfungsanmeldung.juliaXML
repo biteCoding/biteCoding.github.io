@@ -1,0 +1,68 @@
+<juliaProjekt juliaProjektHoehe="449.0" juliaProjektName="Prüfungsanmeldung" juliaProjektSpeicherOrtBild="D:\Tim\GoogleDrive\Studium_Tim\Datenbanken\Übungen\Übung 2\2.png" juliaProjektWeite="899.0" juliaProjektZoomAnzahl="0">
+    <juliaProjektEntitaeten>
+        <juliaEntitaet juliaEntitaetName="Studierender" juliaEntitaetSchwach="false">
+            <juliaKomponente>
+                <juliaGrafischeKomponente juliaHoehe="20.400000000000006" juliaWeite="81.87890625" juliaXKoordinate="201.60000000000005" juliaYKoordinate="279.2"/>
+                <juliaKinder>
+                    <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="Name" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="false">
+                        <juliaKomponente>
+                            <juliaGrafischeKomponente juliaHoehe="33.0" juliaWeite="47.693359375" juliaXKoordinate="113.60000000000001" juliaYKoordinate="293.2"/>
+                            <juliaKinder/>
+                        </juliaKomponente>
+                    </juliaAttribut>
+                    <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="Matrikelnummer" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="true">
+                        <juliaKomponente>
+                            <juliaGrafischeKomponente juliaHoehe="33.0" juliaWeite="103.873046875" juliaXKoordinate="169.60000000000005" juliaYKoordinate="220.20000000000002"/>
+                            <juliaKinder/>
+                        </juliaKomponente>
+                    </juliaAttribut>
+                </juliaKinder>
+            </juliaKomponente>
+        </juliaEntitaet>
+        <juliaEntitaet juliaEntitaetName="Prüfung " juliaEntitaetSchwach="false">
+            <juliaKomponente>
+                <juliaGrafischeKomponente juliaHoehe="20.4" juliaWeite="54.449999999999996" juliaXKoordinate="603.2" juliaYKoordinate="276.8"/>
+                <juliaKinder>
+                    <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="Bezeichnung" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="true">
+                        <juliaKomponente>
+                            <juliaGrafischeKomponente juliaHoehe="33.0" juliaWeite="83.53515625" juliaXKoordinate="668.0" juliaYKoordinate="200.0"/>
+                            <juliaKinder/>
+                        </juliaKomponente>
+                    </juliaAttribut>
+                </juliaKinder>
+            </juliaKomponente>
+        </juliaEntitaet>
+    </juliaProjektEntitaeten>
+    <juliaProjektBeziehungen>
+        <juliaBeziehung juliaBeziehungVerb="hat">
+            <juliaTeilnehmerDerBeziehung>
+                <juliaBeziehungsVerbinder juliaBeziehungsVerbinderSchwach="false" juliaBeziehungsVerbinderZeigeKonnektivitaet="false">
+                    <juliaBeziehungsteilnehmer juliaBeziehungsteilnehmerBeziehungstyp="true" juliaBeziehungsteilnehmerEntitaet="Studierender" juliaBeziehungsteilnehmerKardinalitaet="true">
+                        <juliaKonnektivitaet juliaKonnektivitaetMax="1" juliaKonnektivitaetMin="1"/>
+                    </juliaBeziehungsteilnehmer>
+                </juliaBeziehungsVerbinder>
+                <juliaBeziehungsVerbinder juliaBeziehungsVerbinderSchwach="false" juliaBeziehungsVerbinderZeigeKonnektivitaet="false">
+                    <juliaBeziehungsteilnehmer juliaBeziehungsteilnehmerBeziehungstyp="true" juliaBeziehungsteilnehmerEntitaet="Prüfung " juliaBeziehungsteilnehmerKardinalitaet="true">
+                        <juliaKonnektivitaet juliaKonnektivitaetMax="1" juliaKonnektivitaetMin="1"/>
+                    </juliaBeziehungsteilnehmer>
+                </juliaBeziehungsVerbinder>
+            </juliaTeilnehmerDerBeziehung>
+            <juliaGrafischeKomponente juliaHoehe="40.0" juliaWeite="33.92578125" juliaXKoordinate="420.0" juliaYKoordinate="269.0"/>
+            <juliaAttributeUndKommentareDerBeziehung>
+                <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="Status" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="false">
+                    <juliaKomponente>
+                        <juliaGrafischeKomponente juliaHoehe="33.0" juliaWeite="48.49609375" juliaXKoordinate="396.0" juliaYKoordinate="217.8"/>
+                        <juliaKinder/>
+                    </juliaKomponente>
+                </juliaAttribut>
+                <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="Semester" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="false">
+                    <juliaKomponente>
+                        <juliaGrafischeKomponente juliaHoehe="33.0" juliaWeite="64.8671875" juliaXKoordinate="360.0" juliaYKoordinate="318.0"/>
+                        <juliaKinder/>
+                    </juliaKomponente>
+                </juliaAttribut>
+            </juliaAttributeUndKommentareDerBeziehung>
+        </juliaBeziehung>
+    </juliaProjektBeziehungen>
+    <juliaProjektKommentare/>
+</juliaProjekt>

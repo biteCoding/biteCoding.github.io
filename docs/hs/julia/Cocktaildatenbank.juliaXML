@@ -1,0 +1,91 @@
+<juliaProjekt juliaProjektHoehe="636.5" juliaProjektName="Blatt 2 - Cocktaildatenbank" juliaProjektSpeicherOrtBild="C:\Program Files\Datenbanken" juliaProjektWeite="4687.5" juliaProjektZoomAnzahl="0">
+    <juliaProjektEntitaeten>
+        <juliaEntitaet juliaEntitaetName="Cocktail" juliaEntitaetSchwach="false">
+            <juliaKomponente>
+                <juliaGrafischeKomponente juliaHoehe="20.400000000000006" juliaWeite="50.34375000000001" juliaXKoordinate="580.0" juliaYKoordinate="306.0"/>
+                <juliaKinder>
+                    <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="Name" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="true">
+                        <juliaKomponente>
+                            <juliaGrafischeKomponente juliaHoehe="33.9375" juliaWeite="48.630859375" juliaXKoordinate="564.0" juliaYKoordinate="247.00000000000006"/>
+                            <juliaKinder/>
+                        </juliaKomponente>
+                    </juliaAttribut>
+                </juliaKinder>
+            </juliaKomponente>
+        </juliaEntitaet>
+        <juliaEntitaet juliaEntitaetName="Rezept" juliaEntitaetSchwach="false">
+            <juliaKomponente>
+                <juliaGrafischeKomponente juliaHoehe="20.400000000000006" juliaWeite="43.53046875000001" juliaXKoordinate="870.0" juliaYKoordinate="306.0"/>
+                <juliaKinder>
+                    <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="RezeptNr" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="true">
+                        <juliaKomponente>
+                            <juliaGrafischeKomponente juliaHoehe="33.0" juliaWeite="65.423828125" juliaXKoordinate="853.0000000000002" juliaYKoordinate="238.0"/>
+                            <juliaKinder/>
+                        </juliaKomponente>
+                    </juliaAttribut>
+                    <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="Beschreibung" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="false">
+                        <juliaKomponente>
+                            <juliaGrafischeKomponente juliaHoehe="33.0" juliaWeite="87.63671875" juliaXKoordinate="813.0000000000001" juliaYKoordinate="377.0"/>
+                            <juliaKinder/>
+                        </juliaKomponente>
+                    </juliaAttribut>
+                </juliaKinder>
+            </juliaKomponente>
+        </juliaEntitaet>
+        <juliaEntitaet juliaEntitaetName="Zutat" juliaEntitaetSchwach="false">
+            <juliaKomponente>
+                <juliaGrafischeKomponente juliaHoehe="20.400000000000006" juliaWeite="33.44765625" juliaXKoordinate="1102.0" juliaYKoordinate="310.0"/>
+                <juliaKinder>
+                    <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="Name" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="true">
+                        <juliaKomponente>
+                            <juliaGrafischeKomponente juliaHoehe="33.0" juliaWeite="47.693359375" juliaXKoordinate="1128.0" juliaYKoordinate="369.0"/>
+                            <juliaKinder/>
+                        </juliaKomponente>
+                    </juliaAttribut>
+                </juliaKinder>
+            </juliaKomponente>
+        </juliaEntitaet>
+    </juliaProjektEntitaeten>
+    <juliaProjektBeziehungen>
+        <juliaBeziehung juliaBeziehungVerb="hat">
+            <juliaTeilnehmerDerBeziehung>
+                <juliaBeziehungsVerbinder juliaBeziehungsVerbinderSchwach="false" juliaBeziehungsVerbinderZeigeKonnektivitaet="false">
+                    <juliaBeziehungsteilnehmer juliaBeziehungsteilnehmerBeziehungstyp="false" juliaBeziehungsteilnehmerEntitaet="Cocktail" juliaBeziehungsteilnehmerKardinalitaet="false">
+                        <juliaKonnektivitaet juliaKonnektivitaetMax="1" juliaKonnektivitaetMin="1"/>
+                    </juliaBeziehungsteilnehmer>
+                </juliaBeziehungsVerbinder>
+                <juliaBeziehungsVerbinder juliaBeziehungsVerbinderSchwach="false" juliaBeziehungsVerbinderZeigeKonnektivitaet="false">
+                    <juliaBeziehungsteilnehmer juliaBeziehungsteilnehmerBeziehungstyp="true" juliaBeziehungsteilnehmerEntitaet="Rezept" juliaBeziehungsteilnehmerKardinalitaet="true">
+                        <juliaKonnektivitaet juliaKonnektivitaetMax="1" juliaKonnektivitaetMin="1"/>
+                    </juliaBeziehungsteilnehmer>
+                </juliaBeziehungsVerbinder>
+            </juliaTeilnehmerDerBeziehung>
+            <juliaGrafischeKomponente juliaHoehe="40.0" juliaWeite="40.0" juliaXKoordinate="725.0" juliaYKoordinate="297.0"/>
+            <juliaAttributeUndKommentareDerBeziehung/>
+        </juliaBeziehung>
+        <juliaBeziehung juliaBeziehungVerb="hat">
+            <juliaTeilnehmerDerBeziehung>
+                <juliaBeziehungsVerbinder juliaBeziehungsVerbinderSchwach="false" juliaBeziehungsVerbinderZeigeKonnektivitaet="false">
+                    <juliaBeziehungsteilnehmer juliaBeziehungsteilnehmerBeziehungstyp="true" juliaBeziehungsteilnehmerEntitaet="Rezept" juliaBeziehungsteilnehmerKardinalitaet="true">
+                        <juliaKonnektivitaet juliaKonnektivitaetMax="1" juliaKonnektivitaetMin="1"/>
+                    </juliaBeziehungsteilnehmer>
+                </juliaBeziehungsVerbinder>
+                <juliaBeziehungsVerbinder juliaBeziehungsVerbinderSchwach="false" juliaBeziehungsVerbinderZeigeKonnektivitaet="false">
+                    <juliaBeziehungsteilnehmer juliaBeziehungsteilnehmerBeziehungstyp="true" juliaBeziehungsteilnehmerEntitaet="Zutat" juliaBeziehungsteilnehmerKardinalitaet="false">
+                        <juliaKonnektivitaet juliaKonnektivitaetMax="1" juliaKonnektivitaetMin="1"/>
+                    </juliaBeziehungsteilnehmer>
+                </juliaBeziehungsVerbinder>
+            </juliaTeilnehmerDerBeziehung>
+            <juliaGrafischeKomponente juliaHoehe="40.0" juliaWeite="40.0" juliaXKoordinate="984.0" juliaYKoordinate="298.0"/>
+            <juliaAttributeUndKommentareDerBeziehung>
+                <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="Menge" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="false">
+                    <juliaKomponente>
+                        <juliaGrafischeKomponente juliaHoehe="33.0" juliaWeite="53.18359375" juliaXKoordinate="997.0" juliaYKoordinate="247.00000000000006"/>
+                        <juliaKinder/>
+                    </juliaKomponente>
+                </juliaAttribut>
+            </juliaAttributeUndKommentareDerBeziehung>
+        </juliaBeziehung>
+    </juliaProjektBeziehungen>
+    <juliaProjektKommentare/>
+</juliaProjekt>

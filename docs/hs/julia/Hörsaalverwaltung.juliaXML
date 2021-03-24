@@ -1,0 +1,121 @@
+<juliaProjekt juliaProjektHoehe="599.0" juliaProjektName="Hörsaalverwaltung" juliaProjektSpeicherOrtBild="C:\Program Files\Datenbanken" juliaProjektWeite="5859.375" juliaProjektZoomAnzahl="0">
+    <juliaProjektEntitaeten>
+        <juliaEntitaet juliaEntitaetName="Hörsaal" juliaEntitaetSchwach="false">
+            <juliaKomponente>
+                <juliaGrafischeKomponente juliaHoehe="20.400000000000002" juliaWeite="47.91796875" juliaXKoordinate="276.0" juliaYKoordinate="281.0"/>
+                <juliaKinder>
+                    <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="Name" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="true">
+                        <juliaKomponente>
+                            <juliaGrafischeKomponente juliaHoehe="33.0" juliaWeite="47.693359375" juliaXKoordinate="228.0" juliaYKoordinate="220.0"/>
+                            <juliaKinder/>
+                        </juliaKomponente>
+                    </juliaAttribut>
+                    <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="Standort" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="false">
+                        <juliaKomponente>
+                            <juliaGrafischeKomponente juliaHoehe="33.0" juliaWeite="61.673828125" juliaXKoordinate="316.0" juliaYKoordinate="212.0"/>
+                            <juliaKinder/>
+                        </juliaKomponente>
+                    </juliaAttribut>
+                    <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="Platzanzahl" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="false">
+                        <juliaKomponente>
+                            <juliaGrafischeKomponente juliaHoehe="33.0" juliaWeite="75.349609375" juliaXKoordinate="163.0" juliaYKoordinate="303.0"/>
+                            <juliaKinder/>
+                        </juliaKomponente>
+                    </juliaAttribut>
+                </juliaKinder>
+            </juliaKomponente>
+        </juliaEntitaet>
+        <juliaEntitaet juliaEntitaetName="Fachbereich" juliaEntitaetSchwach="false">
+            <juliaKomponente>
+                <juliaGrafischeKomponente juliaHoehe="20.400000000000002" juliaWeite="75.9796875" juliaXKoordinate="552.0" juliaYKoordinate="286.0"/>
+                <juliaKinder>
+                    <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="Name" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="false">
+                        <juliaKomponente>
+                            <juliaGrafischeKomponente juliaHoehe="33.0" juliaWeite="47.693359375" juliaXKoordinate="682.0" juliaYKoordinate="285.0"/>
+                            <juliaKinder/>
+                        </juliaKomponente>
+                    </juliaAttribut>
+                    <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="Anzahl MitarbeiterInnen" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="false">
+                        <juliaKomponente>
+                            <juliaGrafischeKomponente juliaHoehe="33.0" juliaWeite="143.6640625" juliaXKoordinate="557.0" juliaYKoordinate="361.0"/>
+                            <juliaKinder/>
+                        </juliaKomponente>
+                    </juliaAttribut>
+                    <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="Kurzbezeichnung" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="true">
+                        <juliaKomponente>
+                            <juliaGrafischeKomponente juliaHoehe="33.0" juliaWeite="107.060546875" juliaXKoordinate="580.0" juliaYKoordinate="222.0"/>
+                            <juliaKinder/>
+                        </juliaKomponente>
+                    </juliaAttribut>
+                </juliaKinder>
+            </juliaKomponente>
+        </juliaEntitaet>
+        <juliaEntitaet juliaEntitaetName="Ausstattung" juliaEntitaetSchwach="false">
+            <juliaKomponente>
+                <juliaGrafischeKomponente juliaHoehe="20.400000000000002" juliaWeite="76.4015625" juliaXKoordinate="260.0" juliaYKoordinate="454.0"/>
+                <juliaKinder>
+                    <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="Hersteller" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="true">
+                        <juliaKomponente>
+                            <juliaGrafischeKomponente juliaHoehe="33.0" juliaWeite="66.66015625" juliaXKoordinate="153.0" juliaYKoordinate="443.0"/>
+                            <juliaKinder/>
+                        </juliaKomponente>
+                    </juliaAttribut>
+                    <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="Name" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="true">
+                        <juliaKomponente>
+                            <juliaGrafischeKomponente juliaHoehe="33.0" juliaWeite="47.693359375" juliaXKoordinate="247.0" juliaYKoordinate="516.0"/>
+                            <juliaKinder/>
+                        </juliaKomponente>
+                    </juliaAttribut>
+                    <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="Beschreibung" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="false">
+                        <juliaKomponente>
+                            <juliaGrafischeKomponente juliaHoehe="33.0" juliaWeite="87.63671875" juliaXKoordinate="371.0" juliaYKoordinate="502.0"/>
+                            <juliaKinder/>
+                        </juliaKomponente>
+                    </juliaAttribut>
+                </juliaKinder>
+            </juliaKomponente>
+        </juliaEntitaet>
+    </juliaProjektEntitaeten>
+    <juliaProjektBeziehungen>
+        <juliaBeziehung juliaBeziehungVerb="hat">
+            <juliaTeilnehmerDerBeziehung>
+                <juliaBeziehungsVerbinder juliaBeziehungsVerbinderSchwach="false" juliaBeziehungsVerbinderZeigeKonnektivitaet="false">
+                    <juliaBeziehungsteilnehmer juliaBeziehungsteilnehmerBeziehungstyp="true" juliaBeziehungsteilnehmerEntitaet="Hörsaal" juliaBeziehungsteilnehmerKardinalitaet="true">
+                        <juliaKonnektivitaet juliaKonnektivitaetMax="1" juliaKonnektivitaetMin="1"/>
+                    </juliaBeziehungsteilnehmer>
+                </juliaBeziehungsVerbinder>
+                <juliaBeziehungsVerbinder juliaBeziehungsVerbinderSchwach="false" juliaBeziehungsVerbinderZeigeKonnektivitaet="false">
+                    <juliaBeziehungsteilnehmer juliaBeziehungsteilnehmerBeziehungstyp="false" juliaBeziehungsteilnehmerEntitaet="Fachbereich" juliaBeziehungsteilnehmerKardinalitaet="false">
+                        <juliaKonnektivitaet juliaKonnektivitaetMax="1" juliaKonnektivitaetMin="1"/>
+                    </juliaBeziehungsteilnehmer>
+                </juliaBeziehungsVerbinder>
+            </juliaTeilnehmerDerBeziehung>
+            <juliaGrafischeKomponente juliaHoehe="40.0" juliaWeite="33.92578125" juliaXKoordinate="418.0" juliaYKoordinate="272.0"/>
+            <juliaAttributeUndKommentareDerBeziehung/>
+        </juliaBeziehung>
+        <juliaBeziehung juliaBeziehungVerb="hat">
+            <juliaTeilnehmerDerBeziehung>
+                <juliaBeziehungsVerbinder juliaBeziehungsVerbinderSchwach="false" juliaBeziehungsVerbinderZeigeKonnektivitaet="false">
+                    <juliaBeziehungsteilnehmer juliaBeziehungsteilnehmerBeziehungstyp="true" juliaBeziehungsteilnehmerEntitaet="Hörsaal" juliaBeziehungsteilnehmerKardinalitaet="true">
+                        <juliaKonnektivitaet juliaKonnektivitaetMax="1" juliaKonnektivitaetMin="1"/>
+                    </juliaBeziehungsteilnehmer>
+                </juliaBeziehungsVerbinder>
+                <juliaBeziehungsVerbinder juliaBeziehungsVerbinderSchwach="false" juliaBeziehungsVerbinderZeigeKonnektivitaet="false">
+                    <juliaBeziehungsteilnehmer juliaBeziehungsteilnehmerBeziehungstyp="true" juliaBeziehungsteilnehmerEntitaet="Ausstattung" juliaBeziehungsteilnehmerKardinalitaet="false">
+                        <juliaKonnektivitaet juliaKonnektivitaetMax="1" juliaKonnektivitaetMin="1"/>
+                    </juliaBeziehungsteilnehmer>
+                </juliaBeziehungsVerbinder>
+            </juliaTeilnehmerDerBeziehung>
+            <juliaGrafischeKomponente juliaHoehe="40.0" juliaWeite="40.0" juliaXKoordinate="279.0" juliaYKoordinate="369.0"/>
+            <juliaAttributeUndKommentareDerBeziehung>
+                <juliaAttribut juliaAttributBerechnet="false" juliaAttributBezeichnung="Anzahl" juliaAttributMultiValue="false" juliaAttributPrimaerschluessel="false">
+                    <juliaKomponente>
+                        <juliaGrafischeKomponente juliaHoehe="33.0" juliaWeite="51.759765625" juliaXKoordinate="356.0" juliaYKoordinate="362.0"/>
+                        <juliaKinder/>
+                    </juliaKomponente>
+                </juliaAttribut>
+            </juliaAttributeUndKommentareDerBeziehung>
+        </juliaBeziehung>
+    </juliaProjektBeziehungen>
+    <juliaProjektKommentare/>
+</juliaProjekt>
